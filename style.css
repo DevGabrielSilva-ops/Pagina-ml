@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+    margin: 0;
+}
+
+.container{
+    display: grid;
+   grid-template-columns: 1fr;
+    justify-content: center;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+
+.header{
+    margin: 0;
+    background-color: #F4EFDF;
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    align-items: center;
+    
+    
+}
+
+#logo{
+    text-align: center;
+    background-color: #B59494;
+    padding: 10px;
+    margin-right: 30px;
+}
+
+#header-contato{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+
+    margin-top: 150px;
+    margin-left: 40px;
+}
+
+#header-contato a{
+    color: #645555;
+    text-decoration: none;
+}
+
+#social{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-top: 150px;
+    margin-right: 40px;
+}
+
+#menu-info{
+    width: 285px;
+    height: auto;
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+    border-radius: 16px;
+    background-color: #F4EFDF;
+    padding: 15px;
+    color: #645555;
+    
+    margin-top: 100px;
+
+}
+
+#menu-text{
+    display: flex;
+   margin-top: 20px;
+   gap: 20%;
+}
+
+#menu-text p{
+    font-size: 22px;
+}
+
+#menu-text img{
+    width: 290px;
+    height: auto ;
+}
+
+#menu-produtos{
+    width: 100%;
+    height: auto;
+    font-size: 30px;
+    background-color:#F4EFDF;
+    border-radius: 16px;
+    text-align: center;
+    padding: 10px;
+    color: #645555;
+
+    margin-top: 100px;
+}
+
+#produtos-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+}
+
+#layout-produtos{
+    display: flex;
+    flex-direction: column;
+    width: 267px;
+    height: auto;
+    border-radius: 16px;
+    border: none;
+    gap: 10px;
+    background-color: #F4EFDF; 
+    padding: 15px;
+    align-items: center;  
+    margin-top: 20px;
+}
+
+#layout-produtos img{
+    width: 120px;
+}
+
+#layout-produtos button{
+    width: 200px;
+    height: auto;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: #B59494;
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+    border: none;
+    
+}
+
+
