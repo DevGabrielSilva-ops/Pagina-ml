@@ -1,21 +1,34 @@
+const modais = [
+  { abre: "abreGDM", fecha: "fechaGDM", modal: "myModalGDM" },
+  { abre: "abreGLI", fecha: "fechaGLI", modal: "myModalGLI" },
+  { abre: "abreSKIN", fecha: "fechaSKIN", modal: "myModalSKIN" },
+  { abre: "abreSLIM", fecha: "fechaSLIM", modal: "myModalSLIM" },
+  { abre: "abreBHC", fecha: "fechaBHC", modal: "myModalBHC" },
+];
 
-    const abreModal = document.getElementById("abreModal");
-    const fechaModal = document.getElementById("fechaModal");
-    const modal = document.getElementById("myModal");
+modais.forEach(({ abre, fecha, modal }) => {
+  const btnAbre = document.getElementById(abre);
+  const btnFecha = document.getElementById(fecha);
+  const modalEl = document.getElementById(modal);
 
-    // Abre modal
-    abreModal.onclick = () => {
-      modal.style.display = "flex";
-    }
+  if (btnAbre && btnFecha && modalEl) {
+    btnAbre.onclick = () => (modalEl.style.display = "flex");
+    btnFecha.onclick = () => (modalEl.style.display = "none");
+  }
+});
 
-    // Fecha modal ao clicar no X
-    fechaModal.onclick = () => {
-      modal.style.display = "none";
-    }
+window.onclick = (e) => {
+  modais.forEach(({ modal }) => {
+    const modalEl = document.getElementById(modal);
+    if (e.target === modalEl) modalEl.style.display = "none";
+  });
+};
 
-    // Fecha modal ao clicar fora
-    window.onclick = (e) => {
-      if (e.target == modal) {
-        modal.style.display = "none";
-      }
-    }
+const form = document.getElementById('contatoForm');
+
+form.addEventListener('submit', function(e) {
+   
+    setTimeout(() => {
+        form.reset(); 
+    }, 100); 
+});
