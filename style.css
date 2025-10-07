@@ -1,37 +1,37 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     font-family: "Inter", sans-serif;
     margin: 0;
 }
 
-.container{
+.container {
     margin-right: 20%;
     margin-left: 20%;
 }
 
 
-.header{
+.header {
     margin: 0;
     background-color: rgb(239, 236, 229);
     display: flex;
     justify-content: center;
     gap: 200px;
     align-items: center;
-    
-    
+
+
 }
 
-#logo{
+#logo {
     text-align: center;
-   
+
     margin-right: 30px;
 }
 
-#header-contato{
+#header-contato {
     display: flex;
     flex-direction: row;
     gap: 30px;
@@ -40,12 +40,12 @@ body{
     margin-left: 40px;
 }
 
-#header-contato a{
+#header-contato a {
     color: #645555;
     text-decoration: none;
 }
 
-#social{
+#social {
     display: flex;
     flex-direction: row;
     gap: 50px;
@@ -53,37 +53,37 @@ body{
     margin-right: 40px;
 }
 
-#menu-info{
+#menu-info {
     width: 285px;
     height: auto;
     font-size: 30px;
     font-weight: 800;
     text-align: center;
     border-radius: 16px;
-    background-color:  rgb(239, 236, 229);
+    background-color: rgb(239, 236, 229);
     padding: 15px;
     color: #645555;
-    
+
     margin-top: 100px;
 
 }
 
-#menu-text{
+#menu-text {
     display: flex;
-   margin-top: 20px;
-   gap: 20%;
+    margin-top: 20px;
+    gap: 20%;
 }
 
-#menu-text p{
+#menu-text p {
     font-size: 22px;
 }
 
-#menu-text img{
+#menu-text img {
     width: 290px;
-    height: auto ;
+    height: auto;
 }
 
-#menu-produtos{
+#menu-produtos {
     width: 100%;
     height: auto;
     font-size: 30px;
@@ -96,45 +96,45 @@ body{
     margin-top: 200px;
 }
 
-#linha-1{
+#linha-1 {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     justify-items: center;
     gap: 80px;
     margin-top: 30px;
 
-       
+
 }
 
-#linha-2{
+#linha-2 {
     display: flex;
     justify-content: center;
     gap: 150px;
     margin-top: 50px;
-    
+
 }
 
-#layout-produtos{
+#layout-produtos {
     display: flex;
     flex-direction: column;
-    
+
     width: 167px;
     height: auto;
     border-radius: 16px;
     border: none;
     gap: 10px;
-    background-color: rgb(239, 236, 229); 
+    background-color: rgb(239, 236, 229);
     padding: 15px;
-    align-items: center;  
+    align-items: center;
     margin-top: 20px;
 }
 
-#layout-produtos img{
+#layout-produtos img {
     width: 120px;
     height: 262px;
 }
 
-#layout-produtos button{
+#layout-produtos button {
     width: 100px;
     height: auto;
     border-radius: 15px;
@@ -144,14 +144,14 @@ body{
     font-weight: 700;
     color: white;
     border: none;
-    
+
 }
 
-#layout-produtos h2{
+#layout-produtos h2 {
     color: #645555;
 }
 
-#inf-flex{
+#inf-flex {
     display: flex;
     justify-content: center;
     text-align: center;
@@ -159,19 +159,19 @@ body{
     margin-top: 200px;
 }
 
-#inf-layout{
+#inf-layout {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-#inf-img{
+#inf-img {
     color: #645555;
 }
 
 
 
-form{
+form {
     display: flex;
     flex-direction: column;
     border: 1px solid #a3a3a3;
@@ -180,10 +180,10 @@ form{
     border-radius: 16px;
     padding: 20px;
     box-shadow: 0 0 10px 0;
-    
+
 }
 
-label{
+label {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -197,7 +197,7 @@ label{
     margin-bottom: 30px;
 }
 
-form input{
+form input {
     margin-bottom: 40px;
     width: 555px;
     height: auto;
@@ -207,10 +207,10 @@ form input{
     text-align: start;
     font-size: 20px;
     padding: 30px;
-    
+
 }
 
-form button{
+form button {
     width: 165px;
     height: auto;
     border-radius: 16px;
@@ -221,114 +221,302 @@ form button{
 
 }
 
-#form-layout{
+#form-layout {
     display: flex;
     justify-content: center;
-   
+
 }
 
-.footer{
-    background-color:  rgb(239, 236, 229);
+.footer {
+    background-color: rgb(239, 236, 229);
     padding: 30px;
 }
 
-#layout-foot{
+#layout-foot {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 350px;
 }
 
-#text-foot img{
+#text-foot img {
     width: 33px;
     height: auto;
 }
 
-#text-foot h4{
+#text-foot h4 {
     font-size: 20px;
     color: #645555;
     margin-top: 20px;
 }
 
-#text-foot p{
+#text-foot p {
     font-size: 20px;
     margin-top: 5px;
 
 }
 
-footer{
+footer {
     background-color: #B59494;
     padding: 20px;
 }
 
-#direitos{
+#direitos {
     text-align: center;
     color: #544242;
     font-size: 20px;
     font-weight: 800;
 }
 
-button:hover{
+button:hover {
     cursor: pointer;
     background-color: #aaa6a6;
     transform: translateY(-5px);
     transition-duration: 0.3s;
 }
 
-a:hover{
+a:hover {
     transform: translateY(-5px);
     transition-duration: 0.3s;
 }
 
- .modal {
-      display: none; /* escondido por padrão */
-      position: fixed;
-      top: 0; left: 0;
-      width: 100%; height: 100%;
-      background: rgba(0,0,0,0.6);
-      justify-content: center;
-      align-items: center;
+.modal {
+    display: none;
+    /* escondido por padrão */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    justify-content: center;
+    align-items: center;
+}
+
+/* Caixa do modal */
+.modal-layout {
+    background: rgb(239, 236, 229);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    width: 90%;
+
+    text-align: center;
+    position: relative;
+    gap: 16px;
+}
+
+.modal-layout h3 {
+    font-size: 20px;
+}
+
+.modal-layout p {
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.modal-layout img {
+    margin-bottom: 15px;
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+/* Botão fechar */
+.fecha {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 22px;
+    cursor: pointer;
+    color: #333;
+}
+
+
+/* Tablets */
+@media (max-width: 1024px) {
+
+    .container {
+        margin-left: 10%;
+        margin-right: 10%;
     }
 
-    /* Caixa do modal */
-    .modal-layout {
-      background: rgb(239, 236, 229);
-      padding: 20px;
-      border-radius: 10px;
-      max-width: 500px;
-      width: 90%;
-      
-      text-align: center;
-      position: relative;
-      gap: 16px;
-    }
-
-    .modal-layout h3{
-        font-size: 20px;
-    }
-
-     .modal-layout p{
-        font-size: 14px;
-        margin-top: 15px;
-     }
-
-    .modal-layout img {
-      margin-bottom: 15px;  
-      max-width: 100%;
-      border-radius: 8px;
-    }
-
-    /* Botão fechar */
-    .fecha {
-      position: absolute;
-      top: 10px;
-      right: 15px;
-      font-size: 22px;
-      cursor: pointer;
-      color: #333;
+    #header-contato {
+        display: none;
     }
 
 
+    .header {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+        padding: 10px;
+        margin: 0px;
+    }
+
+    #header-contato,
+    #social {
+        flex-direction: row;
+        margin: 30px 0 0 0;
+        justify-content: center;
+    }
+
+    #menu-text {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
+    #menu-info{
+        margin-left: 30%;
+        margin-bottom: 5%;
+    }
+
+    #linha-1 {
+       
+        gap: 50px;
+    }
+
+    #linha-2 {
+        gap: 80px;
+       
+    }
+
+    #inf-flex {
+        flex-direction: column;
+        gap: 80px;
+        align-items: center;
+    }
+
+    form input {
+        width: 82%;
+    }
+
+    #layout-foot {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    #text-foot{
+        text-align: center;
+    }
+
+
+}
+
+
+/* Celulares */
+@media (max-width: 768px) {
+
+    .header {
+
+        gap: 10px;
+        margin: 0;
+    }
+
+    #logo img {
+        width: 150px;
+        height: auto;
+        margin-left: 35px;
+    }
+
+    #header-contato {
+        flex-direction: column;
+        gap: 15px;
+        margin: 0;
+    }
+
+    #social {
+        margin: 20px 0 0 0;
+        gap: 20px;
+    }
+
+    #menu-info {
+        width: 90%;
+        font-size: 22px;
+        margin-top: 60px;
+    }
+
+    #menu-text {
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    }
+
+    #menu-text img {
+        width: 100%;
+        max-width: 280px;
+    }
+
+    #menu-produtos {
+        width: 93%;
+       
+
+        margin-top: 150px;
+    }
 
 
 
+    #linha-1 {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    #linha-2 {
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+
+    }
+
+
+
+    #inf-flex {
+        flex-direction: column;
+        align-items: center;
+        gap: 60px;
+        margin-top: 100px;
+    }
+
+    form {
+        width: 90%;
+        margin: 100px auto;
+        padding: 15px;
+    }
+
+    label {
+        width: 100%;
+        font-size: 24px;
+    }
+
+    form input {
+        width: 85%;
+        font-size: 18px;
+        padding: 20px;
+    }
+
+    form button {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    #layout-foot {
+        flex-direction: column;
+        gap: 40px;
+        text-align: center;
+    }
+
+    #text-foot h4,
+    #text-foot p {
+        font-size: 18px;
+    }
+
+    footer {
+        padding: 15px;
+    }
+
+    #direitos {
+        font-size: 16px;
+    }
+}
