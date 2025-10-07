@@ -366,19 +366,19 @@ a:hover {
         gap: 40px;
     }
 
-    #menu-info{
-       
+    #menu-info {
+
         margin-bottom: 5%;
     }
 
     #linha-1 {
-       
+
         gap: 50px;
     }
 
     #linha-2 {
         gap: 80px;
-       
+
     }
 
     #inf-flex {
@@ -398,7 +398,7 @@ a:hover {
         gap: 40px;
     }
 
-    #text-foot{
+    #text-foot {
         text-align: center;
     }
 
@@ -451,7 +451,7 @@ a:hover {
 
     #menu-produtos {
         width: 93%;
-       
+
 
         margin-top: 150px;
     }
@@ -518,5 +518,19 @@ a:hover {
 
     #direitos {
         font-size: 16px;
+    }
+
+    .modal-layout {
+        width: 70%;
+        height: auto;
+    }
+
+    .modal-layout h3 {
+        font-size: 15px;
+    }
+
+    .modal-layout p {
+        font-size: 9px;
+        margin-top: 15px;
     }
 }
